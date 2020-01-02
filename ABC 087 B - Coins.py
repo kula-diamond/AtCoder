@@ -1,6 +1,11 @@
 # あなたは、500円玉をA枚、100円玉をB枚、50円玉をC枚持っています。 これらの硬貨の中から何枚かを選び、合計金額をちょうどX円にする方法は何通りありますか。
-# A,B,C=map(int,input().split())
-A,B,C,X=map(int,'30 30 30 12000'.split())
+# A,B,C,X=(int(z) for z in input().split())
+# A,B,C,X=map(int,'30 30 30 12000'.split())
+A = int(input())
+B = int(input())
+C = int(input())
+X = int(input())
+
 N=0
 
 for i in range(A+1):
